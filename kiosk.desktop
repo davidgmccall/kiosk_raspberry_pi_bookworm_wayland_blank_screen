@@ -1,0 +1,7 @@
+[Desktop Entry]
+Type=Application
+Name=Kiosk
+Comment=Kiosk
+NoDisplay=false
+Exec=/PATH/TO/kiosk.bash
+NotShowIn=GNOME;KDE;XFCE;

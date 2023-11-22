@@ -6,9 +6,20 @@ I tried finding something that would work with wayland on my raspberry pi but wa
 
 Plenty of solutions for X11.
 
+Using keyd since I was already it to swap the ctrl and cap lock keys.
+
+## To Use:
+
+  - Replace "YOUR-URL" in kiosk.bash
+
+  - Replace /PATH/TO/kiosk.bash in kiosk.desktop
+
+  - Copy kiosk.desktop to /etx/xdg/autostart
+
+  - Install dependencies below
+
 ## Depends on:
 
   - keyd  (https://github.com/rvaiya/keyd.git)
-  
+
   - pqiv  (sudo apt install pqiv)
-  

@@ -1,7 +1,7 @@
 #! /bin/bash
 
 scriptDir="${0%/*}"
-blankSecs=10
+blankSecs=${1:-300}
 blankImage=$(readlink -e ${scriptDir}/black-512x512.png)
 blankPid=
 keysLog=$(mktemp --tmpdir=/tmp keyd-XXXXXXXX.log)
@@ -42,6 +42,5 @@ while sleep 1; do
         fi
         isBlank=0
     fi
-    echo
 done
 
