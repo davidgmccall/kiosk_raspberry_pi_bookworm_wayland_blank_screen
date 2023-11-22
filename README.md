@@ -1,0 +1,2 @@
+# kiosk_raspberry_pi_bookworm_wayland_blank_screen
+kiosk raspberry pi bookworm wayland blank screen
